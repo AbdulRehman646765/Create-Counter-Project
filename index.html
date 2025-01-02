@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Counter</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="counter">
+        <i class="fa-solid fa-info" id="info-icon"></i>
+        <h1>Counter</h1>
+        <p class="error">Error</p>
+        <span id="value">0</span>
+        <div class="button-container">
+          <button class="btn decrease">decrease</button>
+          <button class="btn reset">reset</button>
+          <button class="btn increase">increase</button>
+        </div>
+      </div>
+
+      <div class="info-sec">
+        <i class="fa-solid fa-xmark" id="close-icon"></i>
+        <h2>Project Guidelines:</h2>
+        <ul>
+          <li>
+            Use the <strong>Increase</strong> button to increment the value.
+          </li>
+          <li>
+            Use the <strong>Decrease</strong> button to decrement the value (but
+            not below 0).
+          </li>
+          <li>Click <strong>Reset</strong> to set the value back to 0.</li>
+          <li>
+            Enter a step value to increment/decrement by a specific number.
+          </li>
+          <li>
+            If the value reaches 0, an error message will be displayed for
+            further decrements.
+          </li>
+        </ul>
+        <h2>Information:</h2>
+        <div class="extra-info">
+          <p>Project Completed Date:</p>
+          <span>1, Jan, 2025</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
